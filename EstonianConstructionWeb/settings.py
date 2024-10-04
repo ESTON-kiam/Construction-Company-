@@ -8,8 +8,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.your-email-provider.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'your-email@example.com'
-EMAIL_HOST_PASSWORD = 'your-email-password'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # Quick-start development settings - unsuitable for production
@@ -72,9 +72,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'Construction',
         'USER': 'postgres',
-        'PASSWORD': 'BSSEC01/1145/2021',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'PASSWORD': 'Password of your database',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
